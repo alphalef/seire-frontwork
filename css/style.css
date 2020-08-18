@@ -1,0 +1,119 @@
+/* font */
+@font-face {
+    font-family: 'InfinitySans-RegularA1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-RegularA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MapoGoldenPier';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoGoldenPierA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+            
+            
+
+/* CSS Document */
+
+nav {
+	position: fixed;
+	background: rgba(0, 0, 0, 0);
+	padding:0px 20px;
+	height: 90px;
+}
+
+.main-banner {
+	background-image: url('../img/back.jpg');
+	background-size: cover;
+/*  	background-position: center center;*/
+/*	background-attachment: fixed;*/
+	width: 100%;
+	height: 1000px;
+}
+
+.main-banner-2 {
+	background-image: url('../img/main01.jpg');
+	background-size: cover;
+  	background-position: center center;
+	background-attachment: fixed;
+	width: 100%;
+	height: 400px;
+}
+
+.image-layer-400 {
+	color: #ffffff;
+	background-color: rgba(44, 44, 44, 0.5);
+	height: 400px;
+}
+
+.vertical-center-150 {
+	height: 150px;
+	margin: auto;
+	padding-top: 50px;
+}
+
+.vertical-center-400 {
+	height: 400px;
+	margin: auto;
+	padding-left: 10%;
+	padding-top: 100px;
+}
+
+h4 {
+	font-family: 'InfinitySans-RegularA1';
+	margin: 0;
+}
+
+.box {
+	margin-top: 20px;
+	height: 1000px;
+}
+
+nav li a:hover {
+	background: rgba(192,117,23,1.00);
+
+}
+
+nav ul a {
+	height: 90px;
+	padding: 10px 15px;
+	font-size: 1.3rem;
+}
+
+/*그림자 제거*/
+.removeShadow {
+	box-shadow: none;
+/*	webkit-box-shadow: none;*/
+	
+}
+
+/* 서서히 나타나기, 사라지기 */
+.transition {    
+  	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+
+.hideme {
+    opacity:0;
+}
+ 
+
+/* 수직 가운데 정렬 */
+.vertical-center {
+	vertical-align: middle;
+	padding-top: 30px;
+}
+
+
+
+.page-footer {
+	background-color: #3A3A3A;
+}
+
+.page-footer .footer-copyright {
+	background-color: #161616;
+}
